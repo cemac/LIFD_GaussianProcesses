@@ -1,0 +1,40 @@
+
+name: Python Package using Conda
+on: [push]
+
+jobs:
+  test:
+    name: Test python ${{ matrix.python-version }} on ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+        python-version: [3.7]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+      - uses: actions/checkout@v2
+      - name: install mamba
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          environment-file: GP.yml
+          environment-name: GP
+      - name: Install test packages
+        shell: bash
+        run: |
+          pip install pytest nbconvert nbformat
+      - name: which python
+        shell: bash
+        run: |
+          which python
+      - name: git info
+        run: |
+          git log --name-only -1 | cat -
+      - name: Test with pytest
+        shell: bash
+        run: |
+          pytest .github/workflows/test_notebooks.py
