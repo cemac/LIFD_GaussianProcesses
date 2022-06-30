@@ -1,4 +1,20 @@
+
+<div align="center">
+<img src="https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png"></a>
+<a href="https://www.cemac.leeds.ac.uk/">
+  <img src="https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png"></a>
+  <br>
+</div>
+
+# Leeds Institute for Fluid Dynamics Machine Learning For Earth Sciences #
+
 # Gaussian Processes
+
+
+[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_GaussianProcesses/total.svg)](https://github.com/cemac/LIFD_GaussianProcesses/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_GaussianProcesses.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
+
+[![LIFD_GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/cemac/LIFD_GaussianProcesses/actions/workflows/python-package-conda.yml)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_GaussianProcesses/HEAD?labpath=GaussianProcesses.ipynb)
 
 This notebook explores Gaussian Processes to find theoretical functions and then uses advanced python machine learning libraries to
 
@@ -11,11 +27,11 @@ If you are unfamiliar with some of the concepts covered in this tutorial it's re
 
 ## Quick look
 
-If you want a quick look at the contents inside the notebook before deciding to run it please view the [md file](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/GaussianProcesses/Gaussian_Processes.md) generated (*note some HTML code not fully rendered*)
+If you want a quick look at the contents inside the notebook before deciding to run it please view the [md file](https://github.com/cemac/LIFD_GaussianProcesses/blob/main/GaussianProcesses/Gaussian_Processes.md) generated (*note some HTML code not fully rendered*)
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/jupyter_notebooks.md) sections.
 
 ### Quick start
 
