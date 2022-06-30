@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python>=3.8
   - matplotlib
   - notebook
   - plotly
@@ -12,6 +13,6 @@ dependencies:
   - scipy
   - pip:
     - gpflow
-    - tensorflow
-    - tensorflow-estimator
+    - tensorflow>=2.3
+    - tensorflow-estimator>=2.4.0
     - tensorflow-probability
