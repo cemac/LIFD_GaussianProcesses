@@ -11,10 +11,12 @@
 # Gaussian Processes
 
 
-[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_GaussianProcesses/total.svg)](https://github.com/cemac/LIFD_GaussianProcesses/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_GaussianProcesses.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
+[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_GaussianProcesses.svg)](https://github.com/cemac/LIFD_GaussianProcesses/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_GaussianProcesses/total.svg)](https://github.com/cemac/LIFD_GaussianProcesses/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_GaussianProcesses.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586) 
+
 
 [![LIFD_GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/cemac/LIFD_GaussianProcesses/actions/workflows/python-package-conda.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_GaussianProcesses/HEAD?labpath=Gaussian_Processes.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_GaussianProcesses/blob/main/Gaussian_Processes_colab.ipynb)
 
 This notebook explores Gaussian Processes to find theoretical functions and then uses advanced python machine learning libraries to explore sea level changes.
 
@@ -31,9 +33,18 @@ If you want a quick look at the contents inside the notebook before deciding to 
 
 ### Quick start
 
+**Google CoLab**
+
+Google allows you 1 free GPU and this tutorial will run in less than an hour on googles sytem. Please save a copy in your google drive if you would like to save your work and model weights. 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_GaussianProcesses/blob/main/Gaussian_Processes_colab.ipynb)
+
+
 **Binder**
 
-You can run this notebook on your personal lapton or via the [binder](https://mybinder.readthedocs.io/en/latest/index.html#what-is-binder) link above (please allow a few minutes for set up).
+This notebook can run on Binder, for a quick look using saved model weights on the free CPU systems. The notebook will run in a few mintues but you will not be able to train your own model 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_GaussianProcesses/HEAD?labpath=Gaussian_Processes.ipynb) 
 
 **Own Machine**
 
