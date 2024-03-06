@@ -13,8 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: install mamba
-        uses: mamba-org/provision-with-micromamba@main
+        uses: conda-incubator/setup-miniconda@v2
         with:
+          auto-update-conda: false
+          use-only-tar-bz2: true
+          miniforge-version: latest
           environment-file: GP.yml
           environment-name: GP
       - name: Install test packages
