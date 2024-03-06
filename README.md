@@ -68,4 +68,4 @@ This notebook is designed to run on a laptop with no special hardware required t
 
 ## Acknowledgements
 
-Thanks to Oliver Pollard for the basis of this tutotial. This tutorial is part of the [LIFD ENV ML NOTEBOOKS](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS)
+Thanks to Oliver Pollard for the basis of this tutotial. This tutorial is part of the [LIFD ENV ML NOTEBOOKS](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS). Thanks to Donald Cummins and Tamora James for further contributions.
