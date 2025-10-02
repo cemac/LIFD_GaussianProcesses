@@ -19,7 +19,7 @@ This tutorial is based on work done by Ollie Pollard on using Gaussian Processes
 ## Recommended reading
 
 * [Overview of Linear Regression](https://towardsdatascience.com/linear-regression-detailed-view-ea73175f6e86)
-* [An Intuative Guide to Gaussian Processes](https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
+* [An Intuative Guide to Gaussian Processes](https://medium.com/data-science/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
     
 </div>
 
