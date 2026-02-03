@@ -19,7 +19,7 @@ This tutorial is based on work done by Ollie Pollard on using Gaussian Processes
 ## Recommended reading
 
 * [Overview of Linear Regression](https://towardsdatascience.com/linear-regression-detailed-view-ea73175f6e86)
-* [An Intuative Guide to Gaussian Processes](https://medium.com/data-science/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
+* [An Intuitive Guide to Gaussian Processes](https://medium.com/data-science/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
     
 </div>
 
@@ -36,7 +36,7 @@ This tutorial is based on work done by Ollie Pollard on using Gaussian Processes
                 <img src="animations/post_sample.gif">
 </a>
     
-This tutorial is mainly focusing on using python to explore Gaussian Processes. Please read the full [visual aritcle](https://distill.pub/2019/visual-exploration-gaussian-processes/) for a more in depth explanation.
+This tutorial is mainly focusing on using python to explore Gaussian Processes. Please read the full [visual article](https://distill.pub/2019/visual-exploration-gaussian-processes/) for a more in depth explanation.
     
 The [gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) forms the building blocks of Gaussian Processes.
    $\displaystyle f(x) ={\frac {1}{\sigma {\sqrt {2\pi }}}}e^{-{\frac {1}{2}}\left({\frac {x-\mu }{\sigma }}\right)^{2}}$
@@ -668,7 +668,7 @@ highstand = np.load("data/highstand_data.npy")
 We can use 4 parameters provided in `parameter_data.npy` which correspond to the parameters listed below
  
 The Rates of Interglacial Sea-level Change and Responses (RISeR) dataset covers the early interglaical period and can be used to show relative contribution to the Penultimate Glacial Period (PPGM) Max Ice
-Volume and Last Interglacial (LIG) Highstnad from 4 parameters from seidment cores
+Volume and Last Interglacial (LIG) Highstnad from 4 parameters from sediment cores
 
 <img src="images/sea_level_parameters.png">
 
@@ -804,13 +804,13 @@ for index_1 in range(4):
 
 <div style="background-color: #cce5ff; padding: 10px;">
 
-We're going to use the python library [GP flow model](https://gpflow.readthedocs.io/en/master/notebooks/basics/regression.html) to create our guassian process model to creat a more complex model that in our previous example in less lines of code
+We're going to use the python library [GP flow model](https://gpflow.readthedocs.io/en/master/notebooks/basics/regression.html) to create our guassian process model to create a more complex model that in our previous example in less lines of code
     
 `k = gpflow.kernels.Matern52(lengthscales=lscale)`  selects a [Matérn covariance function](https://en.wikipedia.org/wiki/Mat%C3%A9rn_covariance_function) for the [GP flow kernel](https://gpflow.readthedocs.io/en/master/notebooks/advanced/kernels.html)  
 
 `m = gpflow.models.GPR(data=(X, Y), kernel=k, mean_function=None)` constructs a regression model from data points and the selected kernal. 
 
-to inspect the chosen kernel you can run the `print_summary` command which should show you a list of hyperparamers: `variance` and `lengthscale` and will display information about those hyperparamters which will start at default values of 1 and the [transformation](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#Softplus) applied.
+to inspect the chosen kernel you can run the `print_summary` command which should show you a list of hyperparameters: `variance` and `lengthscale` and will display information about those hyperparameters which will start at default values of 1 and the [transformation](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#Softplus) applied.
 
 </div>
 
@@ -859,7 +859,7 @@ print_summary(m)
 </table>
 
 
-## Optamization
+## Optimisation
 
 <div style="background-color: #cce5ff; padding: 10px;">
     
@@ -987,7 +987,7 @@ ax.set_xlabel("Actual Highstand Normalised")
 
 <div style="background-color: #cce5ff; padding: 10px;">
 
-We can now plot the actual predictions (`mean`) in purple with the grey dots agreemeny with the actual data (`highstand_norm`)    
+We can now plot the actual predictions (`mean`) in purple with the grey dots agreement with the actual data (`highstand_norm`)    
 </div>
 
 
