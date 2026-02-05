@@ -24,7 +24,7 @@ This notebook explores Gaussian Processes to find theoretical functions and then
 
 If you are unfamiliar with some of the concepts covered in this tutorial it's recommended to read through the background reading below either as you go through the notebook or beforehand.
 
-* [An Intuitive Guide to Gaussian Processes](https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
+* [An Intuitive Guide to Gaussian Processes](https://medium.com/data-science/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
 * [Visual article on Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
 
 ## Quick look
